@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(222, 212, 223);
+    
+}
+h1{
+    color: rgb(111, 14, 105);
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 33%;
+    height: 75px;
+    text-align: center;
+    background-color: pink;
+    border:black;
+    border-width: 3px;
+}
+h2{
+    color: rgb(111, 14, 105);
+
+    
+}
+
+h3{
+    color: rgb(111, 14, 105);
+}
+.bolded {
+    font-weight: bold;
+  }
+
+.container{
+    width: 100%;
+    text-align: center;
+    display: flex;
+
+}
+
+@media all and (max-width:500px){
+    body{
+        color: red;
+    }
+}
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: 500; width: 400;
+  }
+
+  a:link {
+    color: rgb(111, 14, 105);
+  }
+  a:hover {
+    color: rgb(6, 6, 6);
+  }
+  a:visited {
+    color: black;
+  }
+  
+
+
+
+
+
+
+
+.container-1{
+    display: flex;
+    border:1px #ccc solid;
+    padding:10px;
+    float: none;
+    width: 50%;
+}
+.box-1{
+
+}
+.box-2{
+
+}
+.box-3{
+
+}
+
+
+
+
+
